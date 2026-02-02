@@ -1,0 +1,1 @@
+Source code examples for my course Creational Patterns in C#. It is a course for creation desig patterns mainly listed in GoF's book. Off course it includes some other patterns such as Blooch's static factory methods.
