@@ -2,10 +2,12 @@ namespace Dev.Kaldiroglu.Dp.Creational.Ch01.Employee.Better;
 
 using System;
 
-public class Test1
+public class Test
 {
     public static void Main(string[] args)
     {
+        Console.WriteLine("Dev.Kaldiroglu.Dp.Creational.Ch01.Employee.Better.Test");
+        
         // 1) Office full-time employee
         var officeFullTime = new Employee(
             new PersonalInfo("Sarah", "Johnson", new DateOnly(2000, 2, 14),

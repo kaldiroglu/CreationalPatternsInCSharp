@@ -4,7 +4,8 @@ namespace Dev.Kaldiroglu.Dp.Creational.Ch01.Db.Problem
     {
         private static void Main(string[] args)
         {
-        Console.WriteLine("Dev.Kaldiroglu.Dp.Creational.Ch01.Db.Problem.Test.Main");
+        Console.WriteLine("Dev.Kaldiroglu.Dp.Creational.Ch01.Db.Problem.Test");
+        
         // Scenario 1: Basic local development connection
             var devConn = new DatabaseConnection();
             devConn.Host = "localhost";

@@ -1,10 +1,10 @@
-/*namespace Dev.Kaldiroglu.Dp.Creational.Ch01.Db.Better
+namespace Dev.Kaldiroglu.Dp.Creational.Ch01.Db.Better
 {
     public sealed class Test
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Dev.Kaldiroglu.Dp.Creational.Ch01.Db.Better.Test.Main");
+            Console.WriteLine("Dev.Kaldiroglu.Dp.Creational.Ch01.Db.Better.Test");
             const int PostgresPort = 5432;
             const int ProdConnectionTimeoutMs = 10_000;
             const int ProdReadTimeoutMs = 120_000;
@@ -68,4 +68,4 @@
                     .ReadTimeoutMs(AnalyticsReadTimeoutMs));
         }
     }
-}*/
+}

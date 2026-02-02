@@ -102,7 +102,7 @@ public sealed class Test
 
     private static void run2()
     {
-        Console.WriteLine("Dev.Kaldiroglu.Dp.Creational.Ch01.Employee.Problem.Main.run2");
+        Console.WriteLine("Dev.Kaldiroglu.Dp.Creational.Ch01.Employee.Problem.Test.run2");
 
         // 1) Default constructor (uses defaults: hireDate=now, employmentType="Full-time", etc.)
         var e0 = new Employee();
