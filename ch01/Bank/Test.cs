@@ -5,7 +5,6 @@ internal static class Test
 {
     private static void Main(string[] args)
     {
-        
         // Create a BankLoan via its constructor (caller must supply totalRepayment correctly)
         const double principal = 10_000;
         const double rate = 0.02;
